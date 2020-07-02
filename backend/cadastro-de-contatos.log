@@ -1,0 +1,135 @@
+2020-07-02T17:06:28.725Z [api-cadastro-de-contato: ] info: {
+  _id: 5efe141455ed1d10cc3a360b,
+  name: 'RAFAEL DE FRANCIS FULGENCIO',
+  age: 490,
+  phoneNumber: [ { _id: 5efe141455ed1d10cc3a360c, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:11:55.227Z [api-cadastro-de-contato: ] info: POST
+2020-07-02T17:12:53.175Z [api-cadastro-de-contato: ] info: POST
+2020-07-02T17:14:02.657Z [api-cadastro-de-contato: ] info: 'POST' {
+  _id: 5efe15dad2ea9f2cc8814a25,
+  name: 'RAFAEL DE FRANCIS',
+  age: 36,
+  phoneNumber: [ { _id: 5efe15dad2ea9f2cc8814a26, phone: '31 996290550' } ],
+  __v: 0
+}
+2020-07-02T17:17:47.091Z [api-cadastro-de-contato: ] info: 'PATCH' {
+  _id: 5efdff19e1e5aa3054d36bdc,
+  name: 'DOMINIQUE',
+  age: 36,
+  phoneNumber: [ { _id: 5efe16bb19cc1621f86089d8, phone: '11111110' } ],
+  __v: 0
+}
+2020-07-02T17:18:06.579Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe113f9d9a89267c410fff,
+  name: 'ATENDIMENTO CLIENTE - BANCO BONSUCESSO S.A',
+  age: 1,
+  phoneNumber: [ { _id: 5efe113f9d9a89267c411000, phone: '234422' } ],
+  __v: 0
+}
+2020-07-02T17:18:21.667Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0af2bd10fe19c4538999,
+  name: 'RAFAEL DE FRANCIS FULGENCIO DA SILVA2',
+  age: 420,
+  phoneNumber: [ { _id: 5efe0af2bd10fe19c453899a, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:18:27.837Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0f829d9a89267c410ffb,
+  name: 'RAFAEL DE FRANCIS FULGENCIO DA SILVA WEB2',
+  age: 33,
+  phoneNumber: [ { _id: 5efe0f829d9a89267c410ffc, phone: '31 9 9629-0550' } ],
+  __v: 0
+}
+2020-07-02T17:18:32.082Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0a3990f0620638196ba2,
+  name: 'RAFAEL DE FRANCIS FULGENCIO DA SILVA',
+  age: 40,
+  phoneNumber: [ { _id: 5efe0a3990f0620638196ba3, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:19:09.146Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0bd4bd10fe19c453899e,
+  name: 'RAFAEL DE FRANCIS FULGENCIO',
+  age: 420,
+  phoneNumber: [ { _id: 5efe0bd4bd10fe19c453899f, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:19:12.492Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0cb65673301344a94f8c,
+  name: 'RAFAEL DE FRANCIS FULGENCIO',
+  age: 420,
+  phoneNumber: [ { _id: 5efe0cb65673301344a94f8d, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:19:15.750Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0cf15673301344a94f8f,
+  name: 'RAFAEL DE FRANCIS FULGENCIO',
+  age: 49,
+  phoneNumber: [ { _id: 5efe0cf15673301344a94f90, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:19:19.020Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0f499d9a89267c410ff7,
+  name: 'RAFAEL DE FRANCIS FULGENCIO',
+  age: 490,
+  phoneNumber: [ { _id: 5efe0f499d9a89267c410ff8, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:28:01.336Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efdff19e1e5aa3054d36bdc,
+  name: 'DOMINIQUE',
+  age: 36,
+  phoneNumber: [ { _id: 5efe16bb19cc1621f86089d8, phone: '11111110' } ],
+  __v: 0
+}
+2020-07-02T17:31:07.405Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efbe007b1e5133dc88cadc0,
+  name: 'FRANCIS',
+  age: 36,
+  __v: 0,
+  phoneNumber: []
+}
+2020-07-02T17:31:15.290Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0f8a9d9a89267c410ffd,
+  name: 'RAFAEL DE FRANCIS FULGENCIO DA SILVA WEB2',
+  age: 36,
+  phoneNumber: [ { _id: 5efe0f8a9d9a89267c410ffe, phone: '31 9 9629-0550' } ],
+  __v: 0
+}
+2020-07-02T17:31:20.577Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0f6f9d9a89267c410ff9,
+  name: 'RAFAEL DE FRANCIS FULGENCIO DA SILVA WEB',
+  age: 33,
+  phoneNumber: [ { _id: 5efe0f6f9d9a89267c410ffa, phone: '31 9 9629-0550' } ],
+  __v: 0
+}
+2020-07-02T17:31:24.641Z [api-cadastro-de-contato: ] info: 'DELETE' {
+  _id: 5efe0b21bd10fe19c453899b,
+  name: 'RAFAEL DE FRANCIS FULGENCIO DA SILVA 3',
+  age: 420,
+  phoneNumber: [ { _id: 5efe0b21bd10fe19c453899c, phone: '996290550' } ],
+  __v: 0
+}
+2020-07-02T17:33:38.777Z [api-cadastro-de-contato: ] info: 'POST' {
+  _id: 5efe1a7219cc1621f86089d9,
+  name: 'LÁZARO MARIANO',
+  age: 36,
+  phoneNumber: [ { _id: 5efe1a7219cc1621f86089da, phone: '23456789' } ],
+  __v: 0
+}
+2020-07-02T17:36:49.831Z [api-cadastro-de-contato: ] info: 'POST' {
+  _id: 5efe1b3119cc1621f86089db,
+  name: 'AGNALDO MARI',
+  age: 33,
+  phoneNumber: [ { _id: 5efe1b3119cc1621f86089dc, phone: '3435' } ],
+  __v: 0
+}
+2020-07-02T17:37:38.429Z [api-cadastro-de-contato: ] info: 'POST' {
+  _id: 5efe1b6219cc1621f86089dd,
+  name: 'AGNALDO MARI',
+  age: 22,
+  phoneNumber: [ { _id: 5efe1b6219cc1621f86089de, phone: '31 9 9629-0550' } ],
+  __v: 0
+}

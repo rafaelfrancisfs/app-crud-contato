@@ -2,8 +2,8 @@ import mongoose from 'mongoose'
 
 const phoneSchema = new mongoose.Schema({
     // idContact,id, number
-    number: {
-        type: Number,
+    phone: {
+        type: String,
         required: false
     }
 })
@@ -18,7 +18,8 @@ const contactSchema = new mongoose.Schema({
     age: {
         type: Number,
         required: [true, 'Informe uma idade váliada.']
-    }
+    },
+    phoneNumber: [phoneSchema]
 })
 
 const contactModel = mongoose.model('contact', contactSchema, 'contact');

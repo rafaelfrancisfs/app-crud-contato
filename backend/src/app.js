@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import { contactRouter } from './routes/routes.js'
 import cors from 'cors'
 
+
 const app = express();
 
 //conect mongoDB
@@ -22,6 +23,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(contactRouter);
+
+
+
+
 app.listen(3001, async () => {
     console.log('Backend iniciado!')
 });

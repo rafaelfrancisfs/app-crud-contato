@@ -12,6 +12,8 @@ async function getAllContacts() {
 }
 
 async function insertContact(contact) {
+    console.log("POST: ");
+    console.log(contact);
     const response = await axios.post(baseURL, contact);
     return response.data;
 }
