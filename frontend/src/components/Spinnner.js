@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Spinnner() {
     return (
-        <div>
+        <div className='container'>
             <div className="spinner-grow text-primary" role="status">
                 <span className="sr-only">Carregando...</span>
             </div>

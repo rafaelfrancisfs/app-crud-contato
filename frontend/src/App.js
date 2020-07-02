@@ -86,10 +86,10 @@ function App() {
 
   return (
     <div className="App">
-      {/* <header className="App-header"> */}
-      <header>
+      <header className="App-header">
         <h3>Cadastro de Contato</h3>
       </header>
+
       {isSpinner ? <Spinnner /> : ''}
       {allContacts.length === 0 && <Spinnner />}
       {allContacts.length > 0 && <Filter />}
