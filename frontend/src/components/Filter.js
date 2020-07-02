@@ -8,7 +8,7 @@ const handleInputChange = (event) => {
 };
 export default function Filter() {
     return (
-        <div className="container" style={{ marginTop: '10px' }}>
+        <div className="container" style={{ marginTop: '10px', backgroundColor: '#EEF2DF' }}>
             <div className="input-group mb-3">
                 <div className="input-group-prepend">
                     <span className="input-group-text" id="basic-addon1"><i className="fas fa-search"></i></span>
@@ -17,7 +17,8 @@ export default function Filter() {
                     className="form-control"
                     placeholder="Pesquisa"
                     // value={filter}
-                    onChange={handleInputChange} />
+                    onChange={handleInputChange}
+                    style={{ backgroundColor: '#EEF2DF' }} />
             </div>
         </div>
     )

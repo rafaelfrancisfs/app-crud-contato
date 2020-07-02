@@ -79,7 +79,7 @@ export default function ModalContact({ onSave, onClose, selectedContact }) {
                     <span className="font-weight-bold" >Mantenção de Contato</span>
                     <button type="button" className="bt btn btn-outline-danger btn-smi" onClick={handleClose} >X</button>
                 </div>
-                <form onSubmit={handleSubmit} className="container font-weight-light" >
+                <form onSubmit={handleSubmit} className="container font-weight-light"  >
                     <div className="form-group">
                         <label htmlfor="nameInput">Nome </label>
                         <input type="text"

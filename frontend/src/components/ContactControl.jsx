@@ -28,15 +28,18 @@ export default function ContactControl({ contacts, onUpdate, onDelete, onNewCont
 
             <div className="table-responsive-sm">
                 <table className="table table-hover">
-                    <th scope="col">Nome</th>
-                    <th scope="col">Idade</th>
-                    <th scope="col">Telefone</th>
-                    <th scope="col">Ações</th>
-                    <th className="btn btn-outline-success btn-sm">
-                        <Actions type="new" icon="fas fa-user-plus" onIconClick={handleOnIconClick} />
+                    <thead style={{ color: '#1C3940' }}>
 
-                    </th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Idade</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">Ações</th>
+                        <th className="btn btn-outline-success btn-sm">
+                            <Actions type="new" icon="fas fa-user-plus" onIconClick={handleOnIconClick} />
 
+                        </th>
+
+                    </thead>
                     <tbody>
                         {contacts.map(({ _id, name, age, phoneNumber }) => {
                             return <tr key={_id}>
@@ -45,8 +48,8 @@ export default function ContactControl({ contacts, onUpdate, onDelete, onNewCont
                                 <td>{phoneNumber.phone}</td>
                                 <td>
                                     <div>
-                                        <Actions type="edit" icon="far fa-edit" id={_id} onIconClick={handleOnIconClick} />
-                                        <Actions type="delete" icon="far fa-trash-alt" id={_id} onIconClick={handleOnIconClick} />
+                                        <Actions type="edit" icon="far fa-edit" id={_id} onIconClick={handleOnIconClick} style={{ color: '#F2BE22' }} />
+                                        <Actions type="delete" icon="far fa-trash-alt" id={_id} onIconClick={handleOnIconClick} style={{ color: '#F20505' }} />
                                     </div>
                                 </td>
 

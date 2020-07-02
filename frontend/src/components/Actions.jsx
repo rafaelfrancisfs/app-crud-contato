@@ -10,7 +10,7 @@ export default function Actions({ icon, type, id, onIconClick }) {
         <span >
             <i className={icon}
                 onClick={handelIconClick}
-                style={{ cursor: 'pointer', marginLeft: '10px', marginRight: '10px' }}></i>
+                style={{ cursor: 'pointer', marginLeft: '10px', marginRight: '10px', color: '#1C3940' }}></i>
         </span>
     )
 }
